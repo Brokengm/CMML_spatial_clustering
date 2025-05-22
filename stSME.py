@@ -83,4 +83,4 @@ plt.savefig(
 )
 
 #save the clustering results, prepared for benchmarking in R
-data_SME.obs['louvain'].to_csv("/mnt/CMML_2/louvain_labels.csv", header=True)
+data_SME.obs['louvain'].to_csv("/mnt/CMML_2/stSME_labels.csv", header=True)
