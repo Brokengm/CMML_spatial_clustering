@@ -166,7 +166,6 @@ ari_df <- data.frame(
 print(ari_df)
 
 # visualize as a barplot
-library(ggplot2)
 png("ARI_plot.png", width = 500, height = 500)
 ggplot(ari_df, aes(x = reorder(method, ARI), y = ARI, fill = method)) +
   geom_col(show.legend = FALSE,width = 0.5) +
